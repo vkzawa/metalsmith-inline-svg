@@ -1,0 +1,32 @@
+{
+  "name": "metalsmith-inline-svg",
+  "version": "0.1.0",
+  "description": "metalsmith plugin that inlines svg images into html files",
+  "keywords": [
+    "metalsmith",
+    "javascript",
+    "svg",
+    "inline"
+  ],
+  "author": "Tim Fish <tim@meaty.io> (http://meaty.io/)",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/meatysolutions/metalsmith-inline-svg"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec -r should --harmony"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "xmldom": "^0.1.22",
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "assert-dir-equal": "^1.0.1",
+    "metalsmith": "^2.1.0",
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  }
+}
